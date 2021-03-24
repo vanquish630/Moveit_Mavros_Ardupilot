@@ -1,0 +1,7 @@
+controller_list:
+  - name: FollowMultiDofJointTrajectoryActionServer
+    type: FollowMultiDofJointTrajectory
+    action_ns: ""
+    default: true
+    joints:
+      - virtual_joint

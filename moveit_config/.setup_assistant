@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: mavros_moveit
+    relative_path: models/urdf/iris.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/drone_with_depth_camera.srdf
+  CONFIG:
+    author_name: sohan anisetty
+    author_email: 180030040@iitdh.ac.in
+    generated_timestamp: 1616589726
